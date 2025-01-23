@@ -13,7 +13,7 @@ import connectionRouter from './routes/connectionRouter.js';
 
 const app = express();
 app.use(cors({
-    origin: ["http://localhost:5173", "http://192.168.1.105:5173"],
+    origin: ["http://localhost:5173", "http://192.168.1.105:5173", "http://52.66.244.89/"],
     credentials: true
 }));
 
